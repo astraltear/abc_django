@@ -1,0 +1,25 @@
+장고 설치 
+https://www.djangoproject.com/download/
+
+pip install Django==1.8.7
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver [port]
+
+python manage.py sqlmigrate myapp 0001
+
+
+
+
+
+
+
+Web Frameworks for Python  ==>  https://wiki.python.org/moin/WebFrameworks
+The Django Book ==>  http://www.djangobook.com/en/2.0/index.html
+https://code.djangoproject.com/wiki/DjangoDocumentKoreanTranslation
+http://blog.hannal.net/01-python_django_lecture/
+http://blog.hannal.net/start_with_django_webframework_00/
+
+https://docs.djangoproject.com/en/1.8/misc/design-philosophies/

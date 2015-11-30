@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>article</title>
+</head>
+<body>
+{% extends 'layout.html' %}
+{% block content %}
+{% if articles.count > 0 %}
+	{%for data in articles %}
+	<div>
+		{{data.code}}
+		{{data.name}}
+		{{data.price}}
+		{{data.pub_date}}
+	</div>
+	{% endfor %}	
+{% else %}
+	NOT FOUND
+{% endif %}
+
+{% endblock %}
+
+</body>
+</html>
